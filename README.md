@@ -2,7 +2,8 @@
 
 A Next.js application that generates web pages from natural language prompts using an AI agent architecture. Features a **Figma-like canvas** with multiple design frames, component-based generation, and intelligent update vs. regeneration decisions.
 
-![Demo](./image/explanation/demo.png)
+📹 **[Watch the Demo Video](https://loom.com/share/da9cee3c243f4956bed9dd5d9f7aef6c?from_recorder=1&focus_title=1)**
+
 
 ## ✨ Key Features
 
@@ -168,17 +169,17 @@ The agent specifies spatial layouts:
 
 Some aspects are currently hardcoded and would need refactoring for full flexibility:
 
-| Priority | Item | Location | Issue |
-|----------|------|----------|-------|
-| 🔴 High | Regen keywords | `index.ts:76-80` | Fixed English keywords |
-| 🔴 High | Layout types | `schemas.ts:30` | Only 6 options |
-| 🔴 High | Branch keywords | `prompts.ts:31-36` | Fixed English keywords |
-| 🟡 Med | Color suggestions | `tools.ts:132-137` | Biases outputs |
-| 🟡 Med | Spacing hints | `tools.ts:145-148` | May cause uniformity |
-| 🟡 Med | Image examples | `tools.ts:163-187` | May be copied |
-| 🟡 Med | Example prompts | `page.tsx:22-39` | Limited variety |
-| 🟡 Med | Frame name mapping | `page.tsx:359-369` | Fixed patterns |
-| 🟡 Med | Loading steps | `Canvas.tsx:283-289` | Fake progress |
-| 🟢 Low | Canvas defaults | `Canvas.tsx:36-40` | Starting view |
-| 🟢 Low | Frame size | `page.tsx:67` | Initial dimensions |
-| 🟢 Low | Zoom limits | `Canvas.tsx:23-25` | Min/max bounds |
+| Priority | Item               | Location               | Issue                  |
+| -------- | ------------------ | ---------------------- | ---------------------- |
+| 🔴 High  | Regen keywords     | `index.ts:76-80`     | Fixed English keywords |
+| 🔴 High  | Layout types       | `schemas.ts:30`      | Only 6 options         |
+| 🔴 High  | Branch keywords    | `prompts.ts:31-36`   | Fixed English keywords |
+| 🟡 Med   | Color suggestions  | `tools.ts:132-137`   | Biases outputs         |
+| 🟡 Med   | Spacing hints      | `tools.ts:145-148`   | May cause uniformity   |
+| 🟡 Med   | Image examples     | `tools.ts:163-187`   | May be copied          |
+| 🟡 Med   | Example prompts    | `page.tsx:22-39`     | Limited variety        |
+| 🟡 Med   | Frame name mapping | `page.tsx:359-369`   | Fixed patterns         |
+| 🟡 Med   | Loading steps      | `Canvas.tsx:283-289` | Fake progress          |
+| 🟢 Low   | Canvas defaults    | `Canvas.tsx:36-40`   | Starting view          |
+| 🟢 Low   | Frame size         | `page.tsx:67`        | Initial dimensions     |
+| 🟢 Low   | Zoom limits        | `Canvas.tsx:23-25`   | Min/max bounds         |
