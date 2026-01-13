@@ -2,7 +2,7 @@
 
 A Next.js application that generates web pages from natural language prompts using an AI agent architecture. Features a **Figma-like canvas** with multiple design frames, component-based generation, and intelligent update vs. regeneration decisions.
 
-📹 **[Watch the Demo Video](https://loom.com/share/da9cee3c243f4956bed9dd5d9f7aef6c?from_recorder=1&focus_title=1)**
+📹 **[Watch the Demo Video](https://www.loom.com/share/da9cee3c243f4956bed9dd5d9f7aef6c)**
 
 
 ## ✨ Key Features
